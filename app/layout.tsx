@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Student Managment",
@@ -27,6 +28,7 @@ export default function RootLayout({
         ></link>
       </head>
       <body>
+        <Navbar />
         {children}
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
       </body>

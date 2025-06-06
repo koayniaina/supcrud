@@ -1,0 +1,53 @@
+.navbar {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px black;
+  /* background-color: blue; */
+}
+
+.button {
+  background-color: brown;
+  padding: 0.3rem 1rem;
+  color: whitesmoke;
+  border-radius: 4px;
+}
+
+.logo a {
+  color: blue;
+  font-size: 1.5rem;
+}
+
+.table {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px black;
+
+}
+
+.forms {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px black;
+}
+
+
+
+.btn {
+  margin: 10px 0;
+  background-color: blue;
+  padding: 0.4rem 1rem;
+  color: whitesmoke;
+  border-radius: 4px;
+}
